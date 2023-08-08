@@ -17,6 +17,7 @@ jobs:
         remove-docker-images: 'true'
         remove-codeql: 'true'
         remove-large-packages: 'true'
+        remove-tool-cache: 'true'
     - name: check disk
       run: |
         df -H
